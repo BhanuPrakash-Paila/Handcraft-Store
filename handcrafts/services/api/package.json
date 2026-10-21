@@ -1,0 +1,21 @@
+{
+  "name": "handcraft-store-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/api/src/functions.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.7.2",
+    "@azure/storage-blob": "^12.28.0",
+    "handcrafts": "file:../..",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.15.5",
+    "typescript": "^5.9.3"
+  }
+}

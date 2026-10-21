@@ -1,0 +1,8 @@
+.git*
+.vscode
+local.settings.json
+local.settings.example.json
+node_modules
+src
+migrations
+tsconfig.json

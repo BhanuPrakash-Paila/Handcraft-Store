@@ -1,0 +1,35 @@
+{
+  "name": "handcrafts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "migrate:db": "node scripts/migrate.mjs",
+    "build:api": "tsc -p services/api/tsconfig.json",
+    "test": "tsx --test services/shared/src/commerce.test.ts"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.16.5",
+    "@azure/storage-blob": "^12.32.0",
+    "next": "16.4.2",
+    "pg": "^8.23.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.2",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}

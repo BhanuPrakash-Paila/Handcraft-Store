@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "DATABASE_URL": "postgresql://store_user:replace_me@localhost:5432/handcraft_store",
+    "SESSION_SECRET": "replace-with-at-least-32-random-bytes",
+    "STORE_ORIGIN": "http://localhost:3000",
+    "RAZORPAY_KEY_ID": "",
+    "RAZORPAY_KEY_SECRET": "",
+    "RAZORPAY_WEBHOOK_SECRET": "",
+    "AZURE_STORAGE_CONNECTION_STRING": "",
+    "AZURE_STORAGE_CONTAINER": "product-media",
+    "ADMIN_API_KEY": ""
+  }
+}
